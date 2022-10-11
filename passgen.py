@@ -6,12 +6,12 @@ def genpass():
     txt = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     # txt = "1234567890"
     try:
-        lse = int(input("Длина паролю: "))
+        lse = int(input("Password length: "))
         for a in range(lse):
             pas += random.choice(txt)
         print(pas)
         lse = 0
     except Exception as e:
-        print("Помилка: " + str(e))
+        print("Error: " + str(e))
 while 1:
     genpass()
