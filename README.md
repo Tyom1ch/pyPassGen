@@ -7,7 +7,6 @@
  
  ```
  import random
-import multiprocessing as mp
 
 def genpass():
     pas = ""
